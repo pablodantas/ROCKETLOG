@@ -5,5 +5,50 @@ para criação do arquivo server em node:
 npm init -y
 
 para instalar o express
- npm i express@4.19.2
+npm i express@4.19.2
 npm i --save-dev @types/express@4.17.21
+npm i express-async-errors@3.1.1
+
+para instalar o typescript, para dev
+npm i typescript@5.5.4 @types/node@20.14.12 -D
+npm i tsx@4.16.2 -D
+
+para criar as configuração do tsconfig.json de maneira automática
+
+npx tsc --init
+
+para instalar o zod
+npm i zod@3.23.8
+
+comandos Docker:
+
+para listar os container:
+Docker ps -a
+
+para listar as imagens:
+docker image ls
+
+para excluir o container:
+Docker rm -f (id do container)
+
+para excluir image:
+
+Docker rmi (id da image)
+
+Comando para executar a criação das api ou base de dados configuradas no documento docker-compose.yml
+
+docker-compose up -d
+
+comandos Prisma:
+
+para instalar : npm i prisma@5.19.1 -D
+
+para iniciar e criar: npx prisma init --datasource-provider PostgreSQL
+
+para executar a criação das migrate: npx prisma migrate dev
+
+para abrir o dashboard de visualização do banco de dados criado pelo mesmo: npx prisma studio
+
+
+para fazer o planejamento do banco de dados é bom utilizar ao drawslq
+
