@@ -1,5 +1,7 @@
 Comandos utilizados para criar o projeto:
 
+para fazer o planejamento do banco de dados é bom utilizar ao drawslq
+
 para criação do arquivo server em node:
 
 npm init -y
@@ -49,6 +51,17 @@ para executar a criação das migrate: npx prisma migrate dev
 
 para abrir o dashboard de visualização do banco de dados criado pelo mesmo: npx prisma studio
 
+para criptografar será utilizado o bcrypt:
 
-para fazer o planejamento do banco de dados é bom utilizar ao drawslq
+para instalar o bcrypt: npm i bcrypt@5.1.1 , npm i --save-dev @types/bcrypt@5.0.2
+
+comandos para jwt:
+
+para instalar o JWT:
+
+npm i jsonwebtoken@9.0.2
+
+npm i --save-dev @types/jsonwebtoken@9.0.6
+
+
 
