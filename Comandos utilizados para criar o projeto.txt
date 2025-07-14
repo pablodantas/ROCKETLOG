@@ -47,7 +47,7 @@ para instalar : npm i prisma@5.19.1 -D
 
 para iniciar e criar: npx prisma init --datasource-provider PostgreSQL
 
-para executar a criação das migrate: npx prisma migrate dev
+para executar a criação das migrate: npx prisma migrate dev --name create_tables
 
 para abrir o dashboard de visualização do banco de dados criado pelo mesmo: npx prisma studio
 
